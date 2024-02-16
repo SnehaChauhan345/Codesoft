@@ -1,0 +1,223 @@
+#nav{
+    background-color: orangered;
+}
+.navbar-brand{
+    font:bold;
+    font-size: x-large;
+    margin-left:30px;
+}
+#navbarNav{
+margin-left: 50%;
+
+}
+.nav-item{
+    padding-inline-end: 50px;
+}
+.main{
+    background: linear-gradient(to right, orangered,white);
+}
+#dish{
+    margin-top: 5%;
+}
+.sec1{
+    display: flex;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    font-size:50px;
+    align-self: center;
+    margin-left: 15%;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.btn1{
+    background-color: orangered;
+    border-radius: 4cm;
+    border-color: rgb(236, 63, 0);
+    font-size: 28px;
+    margin-top: 20%;
+}
+.leaf{
+    width: 200px;
+    height: 150px;
+    align-self: end;
+   margin-left: 10%;
+}
+.Body{
+    background-color: rgb(245, 215, 215);
+}
+.popular-item{
+     text-align: center;
+     padding-top: 5%;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    border: 2px solid orangered; /* Sets the border color and width */
+    border-radius: 48%; /* Makes the container's border 20% rounded */
+    overflow: hidden; /* Ensures the image, button, text, and description stay within the circular boundary */
+    width: 200px; /* Adjust the width as needed */
+   padding-bottom: 30px;
+   
+}
+
+.container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.price-button {
+    position: absolute;
+    bottom: -10px; /* Adjust the distance from the bottom as needed */
+    left: calc(50% - 15px); /* Adjust the position horizontally as needed */
+    width: 30px; /* Adjust the button size as needed */
+    height: 30px;
+    background-color: orangered;
+    border: none;
+    border-radius: 50%; /* Makes the button circular */
+    color: white;
+    font-size: 14px;
+    line-height: 30px; /* Centers the text vertically */
+    text-align: center;
+    margin-bottom: 60%;
+    cursor: pointer;
+}
+
+.food-name {
+    text-align: center;
+    font: bold;
+    font-size: 15px; /* Adjust the font size of the food name */
+    margin-top:30px; /* Add margin to separate the button and the food name */
+}
+
+.food-description {
+    text-align: center;
+    font-size: 10px; /* Adjust the font size of the food description */
+    margin-top: 5px; /* Add margin to separate the food name and the description */
+}
+.container-wrapper {
+    display: flex;
+    width: calc(80% - 20px); /* Adjust width to accommodate margins */
+    margin: 0 10%; 
+    margin-top: 10%;
+    
+}
+.body2{
+    background-color: rgb(15, 14, 14);
+    margin-top: 10%;
+    position: relative;
+}
+.body2-text{
+    text-align: center;
+    color: rgb(230, 236, 243);
+   padding-top: 10%;
+   padding-bottom: 7%;
+}
+.icons {
+    font-size: 60px; /* Adjust the size as needed */
+position: absolute;
+   margin-top: -20px;
+   top: 103%; /* Move to 50% from the top */
+    left: 50%; /* Move to 50% from the left */
+    transform: translate(-50%, -50%);    /* Move back by half of its width and height */
+}
+.body3{
+    margin-top:10%;
+    display: flex;
+    justify-content: center;
+    align-items:stretch;    
+    padding-bottom: 7%;
+}
+
+.body3-img{
+    margin-left: 15%;
+    position: relative;
+}
+.body3-img img{
+  
+    width: 250px;
+    border-radius: 50%;
+}
+.body4{
+    background-color:darksalmon;
+    padding-top: 7%;
+    padding-bottom: 15%;
+    z-index: 1;
+    
+}
+.lemon{
+    width: 200px;
+    position: absolute;
+    margin-top: -120px;
+}
+.body4 h2{
+    text-align: center;
+}
+.card-container{
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -50px;
+    
+}
+
+.client1 {
+    width: 50px;
+    border-radius: 100%;
+    position: absolute;   
+    margin-left: 30px;
+    margin-top: -35px;
+}
+.company-container{
+    text-align:center;
+    justify-content: space-between;
+    padding-bottom: 10%;
+    
+    
+}
+.col{
+    font-size:xx-large;
+    font:bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 8%;
+    
+}
+
+.Subscribe{
+    border-radius: 5px;
+    background-color: orangered;
+    padding: 10px;
+}
+.email{
+   
+   position: absolute;
+   left: 50%;
+    transform: translateX(-50%);
+   margin-top: -30px;
+}
+.footer{
+    color: bisque;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 50px;
+}
+.footerrow{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 20px;
+
+}
+
+.footerrow img{
+    width: 40px;
+    
+}
